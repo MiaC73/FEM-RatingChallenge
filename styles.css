@@ -1,0 +1,122 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: hsl(0, 0%, 100%);
+  background-color: hsl(216, 12%, 8%);
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(217, 12%, 63%);
+  line-height: 2;
+}
+
+.boxMain {
+  background-color: hsl(213, 19%, 18%);
+  border-radius: 27px;
+  width: 350px;
+  padding: 40px 20px 40px 40px;
+  margin: 50px auto;
+}
+
+.spaced {
+  margin: 30px auto;
+}
+
+#thankYouBox {
+  display: none;
+  visibility: hidden;
+/*   to show again:
+  display: block;
+  visibility: visible; */
+}
+/* BUTTONS */
+
+.colourBtn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  background: hsl(213, 19%, 24%);
+  color: hsl(25, 97%, 53%);
+  padding: 16px 20px 16px 20px;
+  text-decoration: none;
+  border-width : 0;
+}
+
+.SubBtn {
+  -webkit-border-radius: 27;
+  -moz-border-radius: 27;
+  border-radius: 27px;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: 3.5px;
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  font-weight: 700;
+  background: hsl(25, 97%, 53%);
+  padding: 15px 115px 15px 115px;
+  border: none;
+  text-decoration: none;
+  margin: 10px auto ;
+
+}
+
+.SubBtn:hover {
+  background: hsl(0, 0%, 100%);
+  font-family: 'Roboto', sans-serif;
+  color: hsl(25, 97%, 53%);
+  text-decoration: none;
+}
+
+.RateBtn {
+  -webkit-border-radius: 60;
+  -moz-border-radius: 60;
+  border-radius: 60px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  background: hsl(213, 19%, 24%);
+  color: hsl(0, 0%, 100%);
+  padding: 16px 20px 16px 20px;
+  text-decoration: none;
+  border-width : 0;
+  margin: 0 5px;
+}
+
+.RateBtn:hover {
+  background: hsl(217, 12%, 63%);
+  text-decoration: none;
+}
+
+.orange {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.orange:hover {
+  background: hsl(25, 97%, 53%);
+  text-decoration: none;
+}
+
+/* FOOTER */
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%)
